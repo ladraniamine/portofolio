@@ -1,0 +1,62 @@
+.video-img{
+  position: absolute ;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+*{
+  border: 1px ;
+}
+
+.skills{
+  font-size: 60px;
+  color: var(--secondary-color);
+}
+
+.download{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.img-avtr{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.img-swip{
+  width: 100% !important;
+  height: 250px !important;
+}
+.repo-btn{
+  width: 100px;
+  height: 40px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-weight: 500;
+  border-radius: 20px;
+  border: 1px solid var(--secondary-color);
+  transition: 0.3s ease all;
+}
+.repo-btn:hover{
+  background-color: rgba(255, 255, 255, 0);
+  color: var(--secondary-color);
+}
+.live-btn{
+  width: 100px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0) ;
+  color: var(--secondary-color);
+  font-weight: 500;
+  border-radius: 20px;
+  border: 1px solid var(--secondary-color);
+  margin-bottom: 10px;
+  transition: 0.3s ease all;
+}
+.live-btn:hover{
+  background-color: var(--secondary-color);
+  color: rgb(255, 255, 255);
+}
+
+.video-player{
+  z-index: 3;
+}
