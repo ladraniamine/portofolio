@@ -133,8 +133,8 @@ a:hover {
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 b,
@@ -1008,8 +1008,8 @@ strong {
   }
 
   .section-padding {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .custom-btn,
@@ -1057,10 +1057,12 @@ strong {
   }
 
   .hero {
-    padding-top: 200px;
-    padding-bottom: 400px;
+    padding-top: 140px;
+    padding-bottom: 80px;
   }
-
+  .hero h2 {
+    font-size: 30px;
+}
   .hero-text {
     top: 0;
     margin-bottom: 20px;
@@ -1079,10 +1081,10 @@ strong {
     bottom: 0;
     margin-bottom: 32px;
   }
-
+  
   .services-thumb {
     margin-bottom: 32px;
-    padding-bottom: 270px;
+    
   }
 
   .services-icon-wrap {
@@ -1161,4 +1163,36 @@ strong {
   .hero-image {
     min-width: inherit;
   }
+}
+
+@media screen and (max-width: 425px) {
+  .phone-num{
+    display: none !important;
+  }
+  .hero-title {
+    font-size: 27px;
+}
+.desc{
+ 
+  text-align: center;
+}
+.download {
+  font-size: 16px !important;
+}
+.my-cv{
+  width: 100px;
+}
+.cv{
+  padding-left: 20px !important;
+}
+.Phone{
+  font-size: 13px;
+}
+.Email{
+  font-size: 10px;
+}
+.avatar-image {
+  width: 92px;
+  height: 92px;
+}
 }
